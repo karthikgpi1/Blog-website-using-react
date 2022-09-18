@@ -1,4 +1,5 @@
 import "./sidebar.css";
+import pic from "../pic/k1.png";
 
 export default function Sidebar() {
   return (
@@ -6,7 +7,8 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://www.pexels.com/photo/person-holding-world-globe-facing-mountain-346885/"
+          // src="https://www.pexels.com/photo/person-holding-world-globe-facing-mountain-346885/"
+          src={pic}
           alt=""
         />
         <p>
