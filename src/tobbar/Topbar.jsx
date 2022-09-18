@@ -4,7 +4,12 @@ import pic from "../pic/k1.png";
 export default function Topbar() {
   return (
     <div className="top">
-        <div className="topLeft">l</div>
+        <div className="topLeft">
+        <i className="topIcon fa-brands fa-square-facebook"></i>
+        <i className="topIcon fa-brands fa-square-instagram"></i>
+        <i className="topIcon fa-brands fa-square-twitter"></i>
+        <i className="topIcon fa-brands fa-square-pinterest"></i>
+        </div>
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem">HOME</li>
@@ -20,6 +25,7 @@ export default function Topbar() {
               src={pic}
               alt=""
             />
+            <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
   )
