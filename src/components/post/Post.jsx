@@ -1,13 +1,11 @@
 import "./post.css";
+import pic from "../pic/post1.jpg";
 
 export default function Post() {
   return (
     <div className="post">
-      <img
-        className="postImg"
-        src="https://www.pexels.com/photo/man-standing-on-a-rock-1271619"
-        alt=""
-      />
+      <img className="postImg" src={pic} alt="" />
+      {/* https://www.pexels.com/photo/photo-of-coconut-trees-on-seashore-1591373 */}
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">Music</span>

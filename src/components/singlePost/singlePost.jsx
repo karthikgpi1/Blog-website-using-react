@@ -1,14 +1,13 @@
 import "./singlePost.css";
+import pic from "../pic/post.jpg";
 
 export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-        <img
-          src="https://www.pexels.com/photo/man-standing-on-a-rock-1271619"
-          alt=""
-          className="singlePosting"
-        />
+        <img src={pic} alt="" className="singlePostImg" />
+
+        {/* https://www.pexels.com/photo/landscape-photography-of-mountain-and-body-of-water-2387418 */}
         <h1 className="singlePostTitle">
           Lorem ipsum dolor sit.
           <div className="singlePostEdit"></div>

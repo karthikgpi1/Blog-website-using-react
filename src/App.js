@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <Topbar />
-      {/* <Home /> */}
+      <Home />
       {/* <Single /> */}
       {/* <Write /> */}
       {/* <Settings /> */}
       {/* <Login /> */}
-      <Register />
+      {/* <Register /> */}
     </>
   );
 }
