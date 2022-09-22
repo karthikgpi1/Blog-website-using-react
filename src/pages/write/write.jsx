@@ -1,17 +1,17 @@
 import "./write.css";
 
+import pic from "../../components/pic/post1.jpg";
+
 export default function Write() {
   return (
     <div className="write">
-      <img
-        className="writeImg"
-        src="https://www.pexels.com/photo/man-standing-on-a-rock-1271619"
-        alt=""
-      />
+      <img className="writeImg" src={pic} alt="" />
       <form className="writeForm">
         <div className="writeFormGroup">
-          <label htmlFor="fileInput"></label>
-          <input type="file" id="fileInput" style={{ display: "" }} />
+          <label htmlFor="fileInput">
+            <i className="writeIcon fa-sharp fa-solid fa-plus"></i>
+          </label>
+          <input type="file" id="fileInput" style={{ display: "none" }} />
           <input
             type="text"
             placeholder="Title"

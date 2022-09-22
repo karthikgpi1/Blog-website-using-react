@@ -10,7 +10,10 @@ export default function SinglePost() {
         {/* https://www.pexels.com/photo/landscape-photography-of-mountain-and-body-of-water-2387418 */}
         <h1 className="singlePostTitle">
           Lorem ipsum dolor sit.
-          <div className="singlePostEdit"></div>
+          <div className="singlePostEdit">
+            <i className="singlePostIcon fa-solid fa-pen-to-square"></i>
+            <i class="singlePostIcon fa-regular fa-trash"></i>
+          </div>
         </h1>
         <div className="singlePostInfo">
           <span className="singlePostAuthor">

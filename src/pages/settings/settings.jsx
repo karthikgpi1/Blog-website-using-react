@@ -16,7 +16,9 @@ export default function Settings() {
               src="https://www.pexels.com/photo/man-standing-on-a-rock-1271619"
               alt=""
             />
-            <label htmlFor="fileInput"></label>
+            <label htmlFor="fileInput">
+              <i className="settingsPPIcon fa-regular fa-user"></i>
+            </label>
             <input type="file" id="fileInput" style={{ display: "" }} />
           </div>
           <label>Username</label>
